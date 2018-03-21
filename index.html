@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body {
+      background: transparent;
+    }
+    main {
+      width: 324px;
+      border-radius: 5px;
+      color: #ddd;
+      background: #222;
+      padding: 1em;
+    }
+    blockquote {
+      position: relative;
+      margin: 0em .5em .5em;
+      font-style: italic;
+      font-size: 1.2em;
+    }
+    blockquote::after {
+      content: "ˮ";
+      font-size: 10em;
+      line-height: 1ex;
+      display: block;
+      position: absolute;
+      top: .1em;
+      right: -.1em;
+      opacity: 0.05;
+    }
+    cite {
+      text-transform: capitalize;
+      text-align: right;
+      display: block;
+      font-variant: small-caps;
+      font-style: normal;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <blockquote>
+    The disease with computers is that you play with them.
+    </blockquote>
+    <cite>richard feynman’s ‘computer disease’</cite>
+  </main>
+</body>
+</html>
